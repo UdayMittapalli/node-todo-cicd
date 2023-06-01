@@ -20,7 +20,7 @@ pipeline {
                 }
             }
         }
-        stage('Deploy'){
+        stage('Deploy1'){
             steps{
                 sh "docker-compose down && docker-compose up -d"
             }
